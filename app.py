@@ -10,7 +10,7 @@ def inicio():
 @var_app.route("/cur")
 
 def cur():
-    return render_template("froned/Cur.html")
+    return render_template("/Cur.html")
     
 
 if __name__ == "__main__" :
