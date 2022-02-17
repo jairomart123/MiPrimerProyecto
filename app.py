@@ -1,4 +1,4 @@
-from flask import Flask , render_template
+from flask import Flask , render_template,redirect,url_for
 
 var_app = Flask(__name__)
 
@@ -10,7 +10,7 @@ def inicio():
 @var_app.route("/cur")
 
 def cur():
-    return render_template("/Cur.html")
+    return render_template("/fronet/Cur.html")
     
 
 if __name__ == "__main__" :
