@@ -13,6 +13,8 @@ def cur():
     return render_template("froned/Cur.html")
     
 
-if __name__ == "__main__":
+if __name__ == "__main__" :
     var_app.run(debug=True,port=3000)
 
+##if __name__ == "__main__" :
+    ##var_app.run(host='0.0.0.0',port=3000,debug=True,)
