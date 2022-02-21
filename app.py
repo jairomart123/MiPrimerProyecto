@@ -10,7 +10,7 @@ def inicio():
 @var_app.route("/cur")
 
 def cur():
-    return render_template("/fronet/Cur.html")
+    return render_template("/fronet/cur.hmtl")
     
 
 if __name__ == "__main__" :
