@@ -1,5 +1,5 @@
 # save this as app.py
-from flask import Flask , render_template
+from flask import Flask , render_template,url_for
 
 
 var_app = Flask(__name__)
@@ -11,12 +11,13 @@ def hello():
 
 @var_app.route('/cur')
 def cur():
-    
-    return render_template("index.html")
+    return render_template("cur.html")
+   ### return render_template("index.html")
 
 
 if __name__ == "__main__" :
     var_app.run(host='0.0.0.0',port=3000,debug=True,)
+
 
 """
 
