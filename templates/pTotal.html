@@ -165,8 +165,7 @@
     <!-- ============================================-->
     <!-- <section> begin ============================-->
     <section class="pt-5" id="manager">
-
-      <div class="container">
+          <div class="container">
         <div class="row">
           <div class="col-lg-6"><img class="img-fluid" src="assets/img/manager/manager.png" alt="" /></div>
           <div class="col-lg-6">
@@ -395,12 +394,12 @@
   <!-- ===============================================-->
   <!--    JavaScripts-->
   <!-- ===============================================-->
-  <script src="vendors/@popperjs/popper.min.js"></script>
-  <script src="vendors/bootstrap/bootstrap.min.js"></script>
-  <script src="vendors/is/is.min.js"></script>
+  <script src="{{url_for('static',filename='js/@popperjs/popper.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/bootstrap/bootstrap.min.js')}}"></script>
+  <script src="{{url_for('static',filename='is/is.min.js')}}"></script>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-  <script src="vendors/fontawesome/all.min.js"></script>
-  <script src="assets/js/theme.js"></script>
+  <script src="{{url_for('static',filename='fontawesome/all.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/theme.js')}}"></script>
 
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap"
