@@ -34,11 +34,7 @@ def ptotal():
 if __name__ == "__main__" :
     var_app.run(host='0.0.0.0',port=3000,debug=True,)
 
-css = {{url_for('static',filename='css/*.')}}
 
-img = {{url_for('static',filename='img/*.')}}
-js = {{url_for('static',filename='js/*.')}}
-video = {{url_for('static',filename='video/*.')}}
 
 
 """
