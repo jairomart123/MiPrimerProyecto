@@ -1,0 +1,248 @@
+{% extends './base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+
+<!--==========  carousel  ==============-->
+<div class="row align-items-center">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="{{url_for('static',filename='img/carousel/COMBO_1.jpg')}}" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="{{url_for('static',filename='img/carousel/COMBO_2.jpg')}}" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="{{url_for('static',filename='img/carousel/COMBO_3.jpg')}}" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="{{url_for('static',filename='img/carousel/COMBO_5.jpg')}}" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="{{url_for('static',filename='img/carousel/COMBO_6.jpg')}}" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <section class="pt-7">
+    <div class="container pd-4">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-md-start text-center py-6">
+          <h1 class="mb-4 fs-9 fw-bold">Navper Publicidad</h1>
+          <p class="mb-6 lead text-secondary">Somos expertos en diseño y publicidad, <br class="d-none d-xl-block" />¡todo
+            en un solo lugar! <br class="d-none d-xl-block" />y trengran la mejor
+            experiencia de usuario.</p>
+          <div class="text-center text-md-start"><a class="btn btn-warning me-3 btn-lg" href="#!" role="button">
+              Empesar</a><a class="btn btn-link text-warning fw-medium" href="#!" role="button" data-bs-toggle="modal"
+              data-bs-target="#popupVideo"><span class="fas fa-play me-2"></span>Ver el Video </a></div>
+        </div>
+        <div class="col-md-6 text-end"><img class="pt-7 pt-md-0 img-fluid"
+            src="{{url_for('static',filename='img/hero/hero-img.jpg')}}" alt="" /></div>
+      </div>
+    </div>
+  
+  </section>
+  
+  
+  <!-- ============================================-->
+  <!-- <section> begin ============================-->
+  <section class="pt-5 pt-md-9 mb-6" id="servicio">
+  
+    <div class="bg-holder z-index--1 bottom-0 d-none d-lg-block"
+      style="background-image:url_for('static',filename='img/category/shape.png');opacity:.1;">
+    </div>
+    <!--/.bg-holder-->
+  
+    <div class="container">
+      <h1 class="fs-9 fw-bold mb-4 text-center">Somos lider en la personalizaciòn <br class="d-none d-xl-block" />
+        de produtos, visita nuestro portafolio</h1>
+      <div class="row text-center">
+        <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3"
+            src="{{url_for('static',filename='img/category/icon2.1.png')}}" width="200" alt="Feature" />
+          <h4 class="mb-3">Sublimaciòn</h4>
+          <p class="mb-0 fw-medium text-secondary">Tenemos una gran variedad de tazas,</p>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3"
+            src="{{url_for('static',filename='img/category/icon2.2.png')}}" width="200" alt="Feature" />
+          <h4 class="mb-3">Tarjeterìa social</h4>
+          <p class="mb-0 fw-medium text-secondary"></p>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3"
+            src="{{url_for('static',filename='img/category/icon2.3.png')}}" width="200" alt="Feature" />
+          <h4 class="mb-3">Impresiòn a gran formato</h4>
+          <p class="mb-0 fw-medium text-secondary">realizamos impresiòn de gran formato y en diferentes materiales .
+          </p>
+        </div>
+        <div class="col-lg-3 col-sm-6 mb-2"> <img class="mb-3 ms-n3"
+            src="{{url_for('static',filename='img/category/icon2.4.png')}}" width="200" alt="Feature" />
+          <h4 class="mb-3">Encuadernaciòn</h4>
+          <p class="mb-0 fw-medium text-secondary">Realizamos encuadernaciòn personalizada.</p>
+        </div>
+      </div>
+      <div class="text-center"><a class="btn btn-warning" href="#!" role="button">SIGN UP NOW</a></div>
+    </div><!-- end of .container-->
+  
+  </section>
+  <!-- <section> close ============================-->
+  <!-- ============================================-->
+  
+  
+  
+  
+  <!-- ============================================-->
+  <!-- <section> begin ============================-->
+  
+  <!-- body -->
+  <div id="demos">
+    <div class="row align-items-center">
+      <div class="large-12 columns">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="{{url_for('static',filename='img/carousel/logos/logo-1.png')}}" width="240" height="250" alt="">
+          </div>
+          <div class="item">
+            <img src="{{url_for('static',filename='img/carousel/logos/logo-2.png')}}" width="240" height="250" alt="">
+          </div>
+          <div class="item">
+            <img src="{{url_for('static',filename='img/carousel/logos/logo-3.png')}}" width="240" height="250" alt="">
+          </div>
+          <div class="item">
+            <img src="{{url_for('static',filename='img/carousel/logos/logo-4.png')}}" width="240" height="250" alt="">
+          </div>
+          <div class="item">
+            <img src="{{url_for('static',filename='img/carousel/logos/logo-5.png')}}" width="240" height="250" alt="">
+          </div>
+          <div class="item">
+            <img src="{{url_for('static',filename='img/carousel/logos/logo-6.png')}}" width="240" height="250" alt="">
+          </div>
+          <div class="item">
+            <img src="{{url_for('static',filename='img/carousel/logos/logo-7.png')}}" width="240" height="250" alt="">
+          </div>
+          <div class="item">
+            <img src="{{url_for('static',filename='img/carousel/logos/logo-8.png')}}" width="240" height="250" alt="">
+          </div>
+          <div class="item">
+            <img src="{{url_for('static',filename='img/carousel/logos/logo-9.png')}}" width="240" height="250" alt="">
+          </div>
+          <div class="item">
+            <img src="{{url_for('static',filename='img/carousel/logos/logo-10.png')}}" width="240" height="250" alt="">
+          </div>
+          <div class="item">
+            <img src="{{url_for('static',filename='img/carousel/logos/logo-11.png')}}" width="240" height="250" alt="">
+          </div>
+          <div class="item">
+            <img src="{{url_for('static',filename='img/carousel/logos/logo-12.png')}}" width="240" height="250" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+  </div>
+  
+  
+  
+  <!-- <section> close ============================-->
+  <!-- ============================================-->
+  
+  
+  
+  
+  <!-- ============================================-->
+  <!-- <section> begin ============================-->
+  <section class="pt-5" id="manager">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6"><img class="img-fluid" src="{{url_for('static',filename='img/manager/manager.png')}}"
+            alt="" /></div>
+        <div class="col-lg-6">
+          <h5 class="text-secondary">¿Quienes somos? </h5>
+          <p class="fs-7 fw-bold mb-2">Product Managers</p>
+          <p class="mb-4 fw-medium text-secondary">
+            The Myspace page defines the individual,his or her
+            characteristics, traits, personal choices and the overall<br />personality of the person.
+          </p>
+          <div class="d-flex align-items-center mb-3"> <img class="me-sm-4 me-2"
+              src="{{url_for('static',filename='img/manager/tick.png')}}" width="35" alt="tick" />
+            <p class="fw-medium mb-0 text-secondary">Never worry about overpaying for your<br />energy again.</p>
+          </div>
+          <div class="d-flex align-items-center mb-3"> <img class="me-sm-4 me-2"
+              src="{{url_for('static',filename='img/manager/tick.png')}}" width="35" alt="tick" />
+            <p class="fw-medium mb-0 text-secondary">We will only switch you to energy companies<br />that we trust
+              and will treat you right</p>
+          </div>
+          <div class="d-flex align-items-center mb-3"><img class="me-sm-4 me-2"
+              src="{{url_for('static',filename='img/manager/tick.png')}}" width="35" alt="tick" />
+            <p class="fw-medium mb-0 text-secondary"> We track the markets daily and know where the<br />savings are.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div><!-- end of .container-->
+  
+  </section>
+  <!-- <section> close ============================-->
+  <!-- ============================================-->
+  
+  
+  
+  
+  <!-- ============================================-->
+  <!-- <section> begin ============================-->
+  <section class="pt-5" id="marketer">
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h5 class="text-secondary">Optimisation for</h5>
+          <p class="mb-2 fs-8 fw-bold">Marketers</p>
+          <p class="mb-4 fw-medium text-secondary">Few would argue that, despite the advancements of<br />feminism
+            over the past three decades, women still face a<br />double standard when it comes to their behavior.</p>
+          <h4 class="fw-bold fs-1">Accessory makers</h4>
+          <p class="mb-4 fw-medium text-secondary">While most people enjoy casino gambling, sports
+            betting,<br />lottery and bingo playing for the fun</p>
+          <h4 class="fw-bold fs-1">Alterationists</h4>
+          <p class="mb-4 fw-medium text-secondary">If you are looking for a new way to promote your business<br />that
+            won't cost you money,</p>
+          <h4 class="fw-bold fs-1">Custom Design designers</h4>
+          <p class="mb-4 fw-medium text-secondary">If you are looking for a new way to promote your business<br />that
+            won't cost you more money,</p>
+        </div>
+        <div class="col-lg-6"><img class="img-fluid" src="{{url_for('static',filename='img/marketer/marketer.png')}}"
+            alt="" /></div>
+      </div>
+    </div><!-- end of .container-->
+  
+  </section>
+  <!-- <section> close ============================-->
+  <!-- ============================================-->
+  
+  
+  
+  
+  <!-- ============================================-->
+  <!-- <section> begin ============================-->
+  <section class="py-md-11 py-8" id="superhero">
+  
+    <div class="bg-holder z-index--1 bottom-0 d-none d-lg-block background-position-top"
+      style="background-image:url_for ('static',filename='img/superhero/oval.png');opacity:.5; background-position: top !important ;">
+    </div>
+    <!--/.bg-holder-->
+  
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h1 class="fw-bold mb-4 fs-7">Need a super hero?</h1>
+          <p class="mb-5 text-info fw-medium">Do you require some help for your project: Conception
+            workshop,<br />prototyping, marketing strategy, landing page, Ux/UI?</p>
+          <button class="btn btn-warning btn-md">Contact our expert</button>
+        </div>
+      </div>
+    </div><!-- end of .container-->
+  
+  </section>
+
+{% endblock %}
