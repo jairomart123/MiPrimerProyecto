@@ -102,13 +102,8 @@ def newregistro():
         conexion.close()
         flash('Gracias por registrarte')
 
-    
-
-
-    
-
     return redirect(url_for('login'))
-
+    
 
 @app.route('/protected')
 @login_required
